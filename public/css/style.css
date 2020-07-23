@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.item {
+  background-color: grey;
+  width: 15%;
+}
+.item p {
+  color: white;
+}

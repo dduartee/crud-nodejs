@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>produtos</title>
+  <link rel='stylesheet' href='css/style.css' />
+</head>
+
+<body>
+  <a href="/add">Adicionar produtos</a>
+  <center>
+    <h1>produtos</h1>
+    <% for( let i = 0; i < produtos.length; i++ ) { %>
+    <div class="item">
+      <img width="100%"src="/img/<%= produtos[i].logo %>.jpg">
+      <p>Nome: <%= produtos[i].nome %></p>
+      <p>Preço: <%= produtos[i].preco %></p>
+      <p>ingredientes: <%= produtos[i].ingredientes %></p>
+    </div>
+    <% } %>
+</body>
+
+</html>
